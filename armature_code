@@ -1,0 +1,84 @@
+
+union()
+{
+union()
+{
+		//floor
+union(){
+intersection(){
+difference()
+intersection()
+
+{
+rotate([0,90,0]) cylinder( h=100, r=76.2, $fn=100);
+
+translate([55,0,80]) cube([150,80,30], center=true);
+}
+translate([45,0,30])cube([5,100,100], center=true);
+}
+
+intersection(){
+
+
+intersection()
+{
+rotate([0,90,0]) cylinder( h=100, r=76.2, $fn=100);
+
+translate([55,0,80]) cube([150,80,30], center=true);
+}
+translate([2.5,0,30])cube([5,100,100], center=true);
+}}
+
+
+intersection(){
+intersection(){
+rotate([0,90,0]) cylinder( h=100, r=76.2, $fn=100);
+
+translate([55,0,80]) cube([150,80,30], center=true);
+}
+translate([90,0,30])cube([5,100,100], center=true);
+}
+
+
+
+
+//stalk 1
+
+difference(){
+ translate([2.5,0,34]) cube([5,5,82.2], center=true);
+ 
+rotate([0,90,0]) translate([-3.2,0,-4])  cylinder(h=10, r=1.5, $fn=100);
+ rotate([0,90,0])translate([3.2,0,-4])  cylinder(h=10, r=1.5, $fn=100);
+}
+//stalk 2
+
+translate([42.5,-2.5,8]) cube([5,5,67.2]);
+
+}
+
+//accelerator cradle
+difference(){
+rotate([0,0,0]) translate([45.5,0,7]) cube([28,14, 10], center=true);
+ 
+rotate([0,90,0]) translate([0,0,29]) cylinder(h=33, r=7.85);
+}
+
+//stalk 3
+union(){
+translate([87.5,-2.5,14.1]) cube([5,5,53.2]);
+rotate([0,90,0]){
+rotate(a = 260, v = [x, y, z]){
+translate([1.7,-2,87.5]){
+union(){
+linear_extrude(height = 5, center = false, convexity = 10, twist = 0)
+
+difference(){
+
+polygon([[-17,-7],[-7,15],[5,19],[12,9],[20,-11],[9,-15],[-12,-11]]);
+
+polygon([[-14,-7],[-2,-10],[9,-13],[17,-10],[12,4],[4,16],[-5,12],[-9,4]]);
+}}}}}}
+
+
+translate([0,-2.5,71]) cube ([90,5,5.18]);
+}
