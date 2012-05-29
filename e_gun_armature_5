@@ -1,0 +1,184 @@
+
+union()
+{
+union()
+{
+		//floor
+union(){
+intersection(){
+difference()
+intersection()
+
+{
+rotate([0,90,0]) cylinder( h=100, r=76.2, $fn=100);
+
+translate([55,0,80]) cube([150,80,30], center=true);
+}
+translate([45,0,30])cube([5,100,100], center=true);
+}
+
+intersection(){
+
+
+intersection()
+{
+rotate([0,90,0]) cylinder( h=100, r=76.2, $fn=100);
+
+translate([55,0,80]) cube([150,80,30], center=true);
+}
+translate([2.5,0,30])cube([5,100,100], center=true);
+}}
+
+
+intersection(){
+intersection(){
+rotate([0,90,0]) cylinder( h=100, r=76.2, $fn=100);
+
+translate([55,0,80]) cube([150,80,30], center=true);
+}
+translate([90,0,30])cube([5,100,100], center=true);
+}
+
+
+
+
+//stalk 1
+//buttress set 1
+//buttress
+rotate([0,270,0])translate([7,-32.5,-7.5])
+difference(){
+translate([30,28,5])cube ([60,5,5], center=true);
+scale(v = [3.7, 1, 1]) {cylinder (10,30,30, $fn=100);}}
+
+//buttress
+rotate([0,270,180])translate([7,-32.5,-2.5])
+difference(){
+translate([30,28,5])cube ([60,5,5], center=true);
+scale(v = [3.7, 1, 1]) {cylinder (10,30,30, $fn=100);}}
+
+//buttress
+rotate([0,270,90])translate([13.5,-35.,-5])
+difference(){
+translate([30,28,5])cube ([65,5,5], center=true);
+scale(v = [3.7, 1, 1]) {cylinder (10,30,30, $fn=100);}}
+
+//buttress
+rotate([0,270,-90])translate([7,-29.9,-5])
+difference(){
+translate([34,28,5])cube ([70,5,5], center=true);
+scale(v = [3.7, 1, 1]) {cylinder (10,30,30, $fn=100);}}
+
+
+
+difference(){
+
+ translate([2.5,0,34]) cube([5,5,82.2], center=true);
+ 
+rotate([0,90,0]) translate([-3.2,0,-4])  cylinder(h=10, r=1.5, $fn=100);
+ rotate([0,90,0])translate([3.2,0,-4])  cylinder(h=10, r=1.5, $fn=100);
+}
+//stalk 2
+
+//buttress set 2
+translate([42.5,0,1.5]){
+//buttress
+rotate([0,270,0])translate([7,-32.5,-7.5])
+difference(){
+translate([30,28,5])cube ([60,5,5], center=true);
+scale(v = [3.7, 1, 1]) {cylinder (10,30,30, $fn=100);}}
+
+//buttress
+rotate([0,270,180])translate([7,-32.5,-2.5])
+difference(){
+translate([30,28,5])cube ([60,5,5], center=true);
+scale(v = [3.7, 1, 1]) {cylinder (10,30,30, $fn=100);}}
+
+//buttress
+rotate([0,270,90])translate([13.5,-35.,-5])
+difference(){
+translate([30,28,5])cube ([61,5,5], center=true);
+scale(v = [3.7, 1, 1]) {cylinder (10,30,30, $fn=100);}}
+
+//buttress
+rotate([0,270,-90])translate([10,-29.9,-5])
+difference(){
+translate([30,28,5])cube ([61,5,5], center=true);
+scale(v = [3.7, 1, 1]) {cylinder (10,30,30, $fn=100);}}
+}
+
+translate([42.5,-2.5,8]) cube([5,5,67.2]);
+
+}
+
+//accelerator cradle
+difference(){
+rotate([0,0,0]) translate([45.5,0,7]) cube([28,14, 10], center=true);
+ 
+rotate([0,90,0]) translate([0,0,29]) cylinder(h=33, r=7.85);
+}
+
+//stalk 3
+
+union(){
+
+difference(){
+
+
+//buttress set 3
+translate([92.5,0,0]){
+rotate([0,0,180]){
+
+//buttress
+difference(){
+rotate([0,270,0])translate([7,-32.5,-7.5])
+difference(){
+translate([30,28,5])cube ([60,5,5], center=true);
+scale(v = [3.7, 1, 1]) {cylinder (10,30,30, $fn=100);}}
+translate([-1,-.2,2])rotate([30,0,0])cube([10,12,10]);}
+
+//buttress
+difference(){
+rotate([0,270,180])translate([7,-32.5,-2.5])
+difference(){
+translate([30,28,5])cube ([60,5,5], center=true);
+scale(v = [3.7, 1, 1]) {cylinder (10,30,30, $fn=100);}}
+translate([-1,-.2,2])rotate([30,0,0])cube([10,12,10]);}
+
+
+//buttress
+difference(){
+rotate([0,270,90])translate([13.5,-35.,-5])
+difference(){
+translate([30,28,5])cube ([65,5,5], center=true);
+scale(v = [3.7, 1, 1]) {cylinder (10,30,30, $fn=100);}}
+translate([-1,-.2,2])rotate([30,0,0])cube([10,12,10]);}
+
+
+//buttress
+difference(){
+rotate([0,270,-90])translate([7,-29.9,-5])
+difference(){
+translate([34,28,5])cube ([70,5,5], center=true);
+scale(v = [3.7, 1, 1]) {cylinder (10,30,30, $fn=100);}}
+translate([-1,-.2,2])rotate([30,0,0])cube([10,12,10]);}
+
+}
+}}}
+
+union(){
+translate([87.5,-2.5,14.1]) cube([5,5,53.2]);
+rotate([0,90,0]){
+rotate(a = 260){
+translate([1.7,-2,87.5]){
+union(){
+linear_extrude(height = 5, center = false, convexity = 10, twist = 0)
+
+difference(){
+
+polygon([[-17,-7],[-7,15],[5,19],[12,9],[20,-11],[9,-15],[-12,-11]]);
+
+polygon([[-14,-7],[-2,-10],[9,-13],[17,-10],[12,4],[4,16],[-5,12],[-9,4]]);
+}}}}}}}
+
+
+translate([0,-2.5,71]) cube ([90,5,5.18]);
