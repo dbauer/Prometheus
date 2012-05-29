@@ -1,0 +1,10 @@
+difference()
+{
+translate([56,-8,1.2]) cube([33,12,3]);
+for ( x = [1.2:.1:1.8] )
+
+translate([x*50,-5,0])  cylinder(r=x, h=5, $fn=50);
+
+for ( y = [2.0:.1:1.4] )
+translate([y*44,0,0])  cylinder(r=y, h=5, $fn=50);
+}
